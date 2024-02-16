@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: service_publisher
+Bundle-SymbolicName: service_publisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.service.ServiceActivator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-18
+Automatic-Module-Name: OSGI.service.publisher
+Bundle-ActivationPolicy: lazy
+

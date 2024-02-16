@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGI_service_subscribers
+Bundle-SymbolicName: OSGI_service_subscribers
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi_service_subscribers.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-18
+Automatic-Module-Name: OSGI.service.subscribers
+Bundle-ActivationPolicy: lazy
